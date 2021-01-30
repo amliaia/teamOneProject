@@ -1,6 +1,6 @@
 # Project 1
-# Project Name
-> Geographic Job Search
+# Geographic Job Search
+> 
 
 ## Table of contents
 * [General info](#general-info)
@@ -24,6 +24,9 @@ Examples of usage:
 
 ## Features
 List of features ready and TODOs for future development
+
+To do:
+
 * Landing Page
 * Search Feature
 * Locally stored information
