@@ -8,6 +8,8 @@
     Goal - find a job
 
 4. App wireframe
+## Screenshots
+![Example screenshot](./images/projectOneWireframe.jpg)
 
 5.  APIs to be used
     CareerJet
