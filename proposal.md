@@ -8,12 +8,16 @@
     Goal - find a job
 
 4. App wireframe
+-Nav Bar: Job Search by description 
+-Fill in search bar to filter results 
+-Top three search results
 ## Screenshots
 ![Example screenshot](./images/projectOneWireframe.jpg)
 
 5.  APIs to be used
-    CareerJet
-    ZipRecruiter
+    Wikepedia 
+    Jooble
+    
 
 6. Tasks
     Landing Page
