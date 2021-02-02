@@ -5,7 +5,7 @@
 3. User story
     3.1 Who - App is for job seekers
     3.2 What - Job information pulled from Wikipedia and a selection of jobs related to search.
-    3.3 Goal - find a job
+    3.3 Goal - Discover a new career
 
 4. App wireframe
 ## Screenshots
