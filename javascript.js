@@ -1,4 +1,3 @@
-// fetching Jooble API 
 var url = "https://jooble.org/api/";
 var key = "efebc8f0-344d-47a3-8970-4510f311c807";
 var params = "{ keywords: 'it', location: 'Bern'}"
@@ -14,10 +13,47 @@ http.setRequestHeader("Content-type", "application/json");
 //Callback when the state changes
 http.onreadystatechange = function() {
 	if(http.readyState == 4 && http.status == 200) {
-		alert(http.responseText);
+		console.log(http.responseText);
 	}
 }
 //Send request to the server
 http.send(params);
-// 19 lines above are from https://jooble.org/api/about 
+// getting stuck here trying to display data that we are "fetching"
+showData = http => {
+    const dataDiv = document.querySelector('#dummyDiv');
+    data.forEach(http => {
+      const dataElement = document.createElement('p');
+      dataElement.innerText = `Data: ${character.name}`;
+      dataDiv.append(dataElement);
+    });
+  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// fetch(
+//     'https://jooble.org/api/' + 'efebc8f0-344d-47a3-8970-4510f311c807',
+//     { method: 'POST', 
+//       keywords:'it',
+//       location: 'Bern',}
+//   )
+//   .then( response => {
+//       alert(response.json())
+//       console.log(response);
+//   });
+// //   .catch( error => console.error('error:', error) );
