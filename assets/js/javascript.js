@@ -19,7 +19,7 @@ function searchUp(e) {
     console.log(response);
 
     return response.json()
-  });
+  })
   
   //   .catch( error => console.error('error:', error) );
 
