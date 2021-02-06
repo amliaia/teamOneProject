@@ -4,62 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Job Discovery</title>
     <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
     <link rel="stylesheet" href="./assets/css/style.css"> 
 </head>
 
 
 <body>
+    
+
        
     <div id="h1">
         <div class="main">
-            <nav>
+            <p>
                 <div class="logo">
-                    <img src="assets\images\book-flip-search-512.png" type="image/jpg">
+                    <img src="assets\images\book-flip-search-512.png" type="image/png">
                 </div>
-            </nav>
+            </p>
          
         </div>
         
-        <h1>Let's Find Your Next Job</h1>
-        <p id="p1">Select your job search crtieria from the 3 box's below. Each criteria is unique, accounting
-            for job location, sector of work, and desired job title. Click Submit when you're done selecting
+        <h1>Find Your Next Job Here</h1>
+        <p id="p1">Select your job search crtieria from the 3 box's below. 
+            Each criteria is unique, accounting
+            for job location, sector of work, and desired job title.
+             Click Submit when you're done selecting
             job criteria. Only select one option per criteria.
         </p>
     </div>
 
-
+    <div class="column">
     <div id="h2">
-        <h2>Criteria 1: Location</h2>
-        <p><div class="topnav">
+        <h2>Location</h2>
+        <p>
             <a class="active" href="#location">Location</a>
             <input type="text" placeholder="Search..">
           </div></p>
     </div>
 
-    <div id="h3">
-        <h3>Criteria 2: Sector of Work</h3>
-        <p><div class="topnav">
-            <a class="active" href="jobSector">Job Sector</a>
-            <input type="text" placeholder="Search..">
-          </div></p>
-    </div>
+    <div class="column">
+        <div id="h3">
+            <h3>Sector of Work</h3>
+            <p>
+                <a class="active" href="jobSector">Job Sector</a>
+                <input type="text" placeholder="Search..">
+              </div></p>
+        </div>
 
-    <div id="h4">
-        <h4>Criteria 3: Job Title</h4>
-        <p> <p><div class="topnav">
-            <a class="active" href="jobTitle">Job Title</a>
-            <input type="text" placeholder="Search..">
-          </div></p>
-    </div>
-    <div id="dummyDiv">
-        <p>I am dummy Div, here's some data:</p>
-    </div>
+    <div class="column">
+        <div id="h4">
+             <h4>Job Title</h4>
+             <p>
+                 <a class="active" href="#jobTtle">Job Title</a>
+                 <input type="text" placeholder="Search..">
+             </div></p>
+            </div>
 
+      </div>
+       
+      
     <div id="submitButton">
         <button id="button1">Submit</button>
     </div>
+
 <script src="javascript.js"></script>
 </body>
 
