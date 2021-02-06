@@ -13,16 +13,20 @@ function searchUp(e) {
       // keywords: "it",
       // location: "Bern",
     }
-  ).then((response) => {
-    alert(response.json());
-    console.log(response);
+  )
+  .then((response) => {
+    // alert(response.json());
+    
+
+    return response.json()
   });
+  console.log(response);
   //   .catch( error => console.error('error:', error) );
 
-  showData = (getAPI) => {
-    document.getElementById("output").innerHTML = showData();
-  };
-}
+//   showData = (getAPI) => {
+//     document.getElementById("output").innerHTML = showData();
+//   };
+// }
 
 fetchButton.addEventListener("click", searchUp);
 
