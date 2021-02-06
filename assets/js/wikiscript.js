@@ -10,7 +10,9 @@ function searchUp(e) {
     var links =- [];
     var results = [];
 
-    fetch ('https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&srsearch=' + s)
+    // var fixer = "https://cors-anywhere.herokuapp.com/"
+
+    fetch ('https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&srsearch=' + s)
     
     .then (response => {
         return response.json();
@@ -22,7 +24,7 @@ function searchUp(e) {
         return results;
     })
     .then (a => {
-        fetch('https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=query&prop=info&inprop=url&format=json&pageids=' + a[0].pageid)
+        fetch('https://en.wikipedia.org/w/api.php?action=query&prop=info&inprop=url&format=json&pageids=' + a[0].pageid)
         .then (idresult => {
             return idresult.json();
         })
