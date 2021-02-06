@@ -16,11 +16,11 @@ function searchUp(e) {
   )
   .then((response) => {
     // alert(response.json());
-    
+    console.log(response);
 
     return response.json()
   });
-  console.log(response);
+  
   //   .catch( error => console.error('error:', error) );
 
 //   showData = (getAPI) => {
