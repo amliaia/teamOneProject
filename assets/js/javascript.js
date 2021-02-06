@@ -6,7 +6,7 @@ function searchUp(e) {
   console.log(s);
   // CORS fixer https://cors-anywhere.herokuapp.com/
   fetch(
-    "https://cors-anywhere.herokuapp.com/https://jooble.org/api/" +
+    "/https://jooble.org/api/" +
       "efebc8f0-344d-47a3-8970-4510f311c807",
     {
       method: "GET",
