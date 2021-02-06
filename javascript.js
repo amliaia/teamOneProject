@@ -1,4 +1,4 @@
-var fetchButton = document.getElementById("fetch-button");
+var fetchButton = document.getElementById("button1");
 var termEl = document.getElementById("input");
 
 function searchUp(e) {
