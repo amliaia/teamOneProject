@@ -5,9 +5,7 @@ function searchUp(e) {
   var s = termEl.value;
   console.log(s);
   // CORS fixer https://cors-anywhere.herokuapp.com/
-  fetch(
-    "/https://jooble.org/api/" +
-      "efebc8f0-344d-47a3-8970-4510f311c807",
+  fetch("/https://jooble.org/api/" + "efebc8f0-344d-47a3-8970-4510f311c807",
     {
       method: "GET",
       credentials: 'same-origin',
