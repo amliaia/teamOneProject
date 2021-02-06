@@ -38,4 +38,4 @@ function searchUp(e) {
     });
 }
 
-fetchButton.addEventListener('click', searchUp);git status
+fetchButton.addEventListener('click', searchUp);

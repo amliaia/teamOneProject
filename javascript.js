@@ -1,37 +1,47 @@
-fetch(
-        'https://jooble.org/api/' + 'efebc8f0-344d-47a3-8970-4510f311c807',
-        { method: 'POST', 
-          keywords:'it',
-          location: 'Bern',}
-      )
-      .then( response => {
-              alert(response.json())
-              console.log(response);
-          });
-        //   .catch( error => console.error('error:', error) );
-        
-        showData = getAPI => {
-            document.getElementById("dummyDiv").
-            innerHTML = showData();
-            console.log("APIData:",showData);
-        }
+var fetchButton = document.getElementById("fetch-button");
+var termEl = document.getElementById("input");
 
+function searchUp(e) {
+  var s = termEl.value;
+  console.log(s);
+  // CORS fixer https://cors-anywhere.herokuapp.com/
+  fetch(
+    "https://jooble.org/api/" +
+      "efebc8f0-344d-47a3-8970-4510f311c807",
+    {
+      method: "GET",
+      credentials: 'same-origin',
+      redirect: 'follow',
+      // keywords: "it",
+      // location: "Bern",
+    }
+  ).then((response) => {
+    alert(response.json());
+    console.log(response);
+  });
+  //   .catch( error => console.error('error:', error) );
 
+  showData = (getAPI) => {
+    document.getElementById("output").innerHTML = showData();
+  };
+}
+
+fetchButton.addEventListener("click", searchUp);
 
 // function getAPI() {
-    
+
 //     var url = "https://jooble.org/api/";
 //     var key = "efebc8f0-344d-47a3-8970-4510f311c807";
 //     var params = "{ keywords: 'it', location: 'Bern'}"
-    
+
 //     //create xmlHttpRequest object
 //     var http = new XMLHttpRequest();
 //     //open connection. true - asynchronous, false - synchronous
 //     http.open("POST", url + key, true);
-    
+
 //     //Send the proper header information
 //     http.setRequestHeader("Content-type", "application/json");
-        
+
 //     //Callback when the state changes
 //     http.onreadystatechange = function() {
 //         if(http.readyState == 4 && http.status == 200) {
