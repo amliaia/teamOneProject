@@ -1,32 +1,21 @@
 var fetchButton = document.getElementById("button1");
 var termEl = document.getElementById("input");
 
+// var fetchButton = document.getElementById("submit");
+// var termEl = document.getElementById("user-search")
+
 function searchUp(e) {
-  var s = termEl.value;
-  console.log(s);
-  
-  fetch("https://jooble.org/api/" + "efebc8f0-344d-47a3-8970-4510f311c807",
-    {
-      method: "GET",
-      credentials: 'same-origin',
-      redirect: 'follow',
-      // keywords: "it",
-      // location: "Bern",
-    }
-  )
-  .then((response) => {
-    // alert(response.json());
-    console.log(response);
+  var query = termEl.value;
+  console.log(query);
 
-    return response.json()
+  fetch("https://api.giphy.com/v1/gifs/search?" + query + "&api_key=uwfGVryAAQRWE03fz66tfFjbFGjQdJ4f&limit=10")
+
+  .then(response => {
+      console.log(response);
+      return response.json();
+      
   })
-  
-  //   .catch( error => console.error('error:', error) );
-
-//   showData = (getAPI) => {
-//     document.getElementById("output").innerHTML = showData();
-//   };
-// }
+  .then(data)
 }
 
 fetchButton.addEventListener("click", searchUp);
