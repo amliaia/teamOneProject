@@ -35,15 +35,18 @@
   z-index: 1;
   align-items: center;
   }
+
   .logo{
   flex-basis: 20%;
   }
+
   .logo img{
   width: 10%;
   position: sticky;
   position: right, top;
   margin: 25px auto;
   }
+  
   .box {
   display: flex;
   align-items:center;
