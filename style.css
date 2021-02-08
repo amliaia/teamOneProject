@@ -54,13 +54,13 @@
   
   .header {
   text-align: left;
-  font-family: 'fantasy, copperplate';
+  font-family: Tahoma, typeface;
   font-size: 1.4rem;
   
   }
   html {
   text-align: center;
-  font-family: 'Franklin Gothic Medium';
+  font-family: Tahoma, typeface;
   color: rgb(0, 0, 0);
   background: rgb(219, 219, 217);
   }
