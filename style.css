@@ -61,11 +61,13 @@
   html {
   text-align: center;
   font-family: Tahoma, typeface;
+  font-weight: bold;
   color: rgb(0, 0, 0);
   background: rgb(219, 219, 217);
   }
+
   #root {
-  max-width: 11000px;
+  max-width: 1000px;
   margin: 0 auto;
   }
   
