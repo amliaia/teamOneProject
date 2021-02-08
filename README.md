@@ -13,8 +13,9 @@
 This project is a application that collates job results for a given geographic location. It propmpts the user for a job sector, job title, and job location.  It then dispalys the results.
 
 ## Screenshots
-![Example screenshot](./readme_images/screenshot_1.png)
-![Example screenshot](./readme_images/screenshot_2.png)
+#
+![Alt Text](https://user-images.githubusercontent.com/72354925/107163457-2c45f280-696f-11eb-88d1-35a82262f204.png)
+
 
 ## Code Examples
 Examples of usage:
