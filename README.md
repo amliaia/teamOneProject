@@ -1,5 +1,5 @@
-# Project 1
-# Geographic Job Search
+# Team 1 Project
+# Geographic Job Search Application
 > 
 
 ## Table of contents
