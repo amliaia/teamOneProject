@@ -122,14 +122,6 @@
   font-size: 15px;
   }
   
-  .column {
-  margin: 0;
-  padding: 0;
-  padding-left: 0;
-  padding-right: 0;
-  
-  }
-  
   img {
   display: outside;
   margin: 0;
@@ -163,6 +155,13 @@
   line-height: 1.0;
   margin: 0;
   }
+  .column {
+    float: right;
+    width: 50%;
+    padding: 0px;
+    line-height: 1.0;
+    margin: 0;
+    }
   
   #button1 {
   border: none;
