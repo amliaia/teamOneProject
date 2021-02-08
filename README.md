@@ -15,7 +15,7 @@ This project is a application that collates job results for a given geographic l
 ## Screenshots
 #
 ![Alt Text!](https://user-images.githubusercontent.com/72354925/107296173-7fcf4380-6a36-11eb-8160-ac48fdda5415.png)
-)
+
 
 ## Features
 List of features ready and TODOs for future development
