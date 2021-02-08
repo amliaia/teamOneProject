@@ -52,7 +52,7 @@
   align-items:center;
   }
   
-  .header {
+  .p1 {
   text-align: left;
   font-family: Tahoma, typeface;
   font-size: 1.4rem;
@@ -95,19 +95,9 @@
   font-size: 1.2rem;
   line-height: 0.6;
   color: white;
-  
-  }
+}
+    
   h3 {
-  text-align: center;
-  font-family: Tahoma, typeface;
-  padding: 1.0rem 2.0rem;
-  background-image: linear-gradient(120deg, #558b8d 0%, hsl(157, 48%, 64%) 100%);
-  margin: 0;
-  font-size: 1.2rem;
-  line-height: 0.6;
-  color: white;
-  }
-  h4 {
   text-align: center;
   font-family: Tahoma, typeface;
   padding: 1.0rem 2.0rem;
@@ -183,7 +173,7 @@
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
-  margin: 16px 16px 16px 20px;
+  
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
@@ -191,7 +181,7 @@
   
   @media screen and (max-width: 100px) {
   .column {
-  width: 30%;
+  width: 50%;
   }
   }
   @media screen and (min-width: 600px) {
