@@ -1,5 +1,5 @@
 # Team 1 Project
-# Geographic Job Search Application
+# WikiGiph
 > 
 
 ## Table of contents
@@ -10,7 +10,7 @@
 * [Contact](#contact)
 
 ## General info
-This project is a application that collates job results for a given geographic location. It propmpts the user for a job field, job title, and job location.  It then dispalys the results.
+This project is a application for a user to search for a topic of interest. The user receives results that include a Wikipedia description and a collection of GIFs related to the search term. 
 
 ## Screenshots
 #
@@ -20,12 +20,16 @@ This project is a application that collates job results for a given geographic l
 ## Features
 List of features ready and TODOs for future development
 
-To do:
+Ready:
 
 * Landing Page
 * Search Feature
-* Locally stored information
 * Display Results
+
+To do:
+
+* Locally stored information
+
 
 ## Status
 Release 1.0
@@ -33,7 +37,7 @@ Release 1.0
 Project is: _unfinished_ Project was designed as a homework assignment for a coding class.  This is the submission for the assignment.
 
 ## Contact
-Created by [Corey Colbert](cdcolbert10@gmail.com) - feel free to contact me!
+Created by [UTA-AUS-FSF-PT-12-2020 Project Group 1]
 
 
 # teamOneProject
