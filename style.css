@@ -21,7 +21,7 @@
   
   
   .main{
-  background-image: url(https://image.cnbcfm.com/api/v1/image/100649584-job-listing-newpaper-gettyp.jpg);
+  background-image: url(https://i.pinimg.com/originals/65/08/f7/6508f77e5a65a42d63ff4e057bd3a005.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   
@@ -76,7 +76,7 @@
   text-align: center;
   font-family: Tahoma, typeface;
   padding: 0em;
-  background-image: linear-gradient(120deg, #949faa 0%, hsl(216, 80%, 20%) 100%);
+  background-image: linear-gradient(120deg, #949faa 0%, hsl(352, 93%, 48%) 100%);
   margin: 0;
   margin: 0 0 3rem 0;
   font-size: 2.0rem;
@@ -90,23 +90,12 @@
   text-align: center;
   font-family: Tahoma, typeface;
   padding: 1.0rem 2.0rem;
-  background-image: linear-gradient(120deg, #4fce8f 0%, hsl(214, 27%, 46%) 100%);
+  background-image: linear-gradient(120deg, #a0ecc6 0%, hsl(214, 67%, 66%) 100%);
   margin: 0;
   font-size: 1.2rem;
   line-height: 0.6;
   color: white;
 }
-    
-  h3 {
-  text-align: center;
-  font-family: Tahoma, typeface;
-  padding: 1.0rem 2.0rem;
-  background-image: linear-gradient(120deg, #4fce8f 0%, hsl(214, 27%, 46%) 100%);
-  margin: 0;
-  font-size: 1.2rem;
-  line-height: 0.6;
-  color: white;
-  }
   
   input {
   width: 100%;
@@ -148,16 +137,9 @@
   transform: translate3D(0, -2px, 0);
   }
   
-  .column {
-  float: left;
-  width: 50%;
-  padding: 0px;
-  line-height: 1.0;
-  margin: 0;
-  }
-  .column {
+  .row {
     float: right;
-    width: 50%;
+    width: 100%;
     padding: 0px;
     line-height: 1.0;
     margin: 0;
