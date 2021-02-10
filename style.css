@@ -58,6 +58,13 @@
   font-size: 1.4rem;
   
   }
+  p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
   html {
   text-align: center;
   font-family: Tahoma, typeface;
@@ -80,7 +87,7 @@
   margin: 0;
   margin: 0 0 3rem 0;
   font-size: 2.0rem;
-  line-height: 4;
+  line-height: 2.5;
   color: white;
   
   
@@ -98,8 +105,9 @@
 }
   
   input {
-  width: 100%;
-  display: flex;
+  text-align: center;
+  width: 25%;
+  display: inline-block;
   align-content: center;
   padding: 15px;
   background-color: white;
@@ -138,24 +146,25 @@
   }
   
   .row {
-    float: right;
+    float: none;
+    display: inline-block;
     width: 100%;
     padding: 0px;
-    line-height: 1.0;
-    margin: 0;
+    line-height: 0.7;
+    margin: .2px;
     }
   
   #button1 {
   border: none;
   background-color: rgb(236, 58, 4);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+  box-shadow: none;
   color: hsl(0, 0%, 100%);
   display: inline-block;
-  font-size: 22px;
-  line-height: 22px;
-  margin: 16px 16px 16px 20px;
-  padding: 14px 34px;
+  font-size: 20px;
+  line-height: 17px;
+  margin: 10px 10px 10px 15px;
+  padding: 10px 25px;
   text-align: center;
   cursor: pointer;
   }
