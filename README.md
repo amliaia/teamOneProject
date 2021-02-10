@@ -49,7 +49,7 @@ Server-side APIs
 Git branching workflow
 Agile software development
  
-##Links
+## Links
 Website
 https://amliaia.github.io/teamOneProject/
 Repository
