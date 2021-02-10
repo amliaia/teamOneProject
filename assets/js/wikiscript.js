@@ -1,33 +1,35 @@
 
-var fetchButton = document.getElementById('fetch-button');
+var fetchButton = document.querySelector("#search-form");
 var termEl = document.getElementById("input");
 
 
 function searchUp(e) {
     var s = termEl.value;
     console.log(s);
-    var ids = "";
-    var links =- [];
     var results = [];
 
     // var fixer = "https://cors-anywhere.herokuapp.com/"
 
-    fetch ('https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&srsearch=' + s)
+    fetch ("https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&srsearch=" + s)
     
     .then (response => {
         return response.json();
     })
+
     .then (results => {
         results = results.query.search;
         console.log(results);
         
         return results;
     })
+    
     .then (a => {
-        fetch('https://en.wikipedia.org/w/api.php?action=query&prop=info&inprop=url&format=json&pageids=' + a[0].pageid)
+        fetch("https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=query&prop=info&inprop=url&format=json&pageids=" + a[0].pageid)
+
         .then (idresult => {
             return idresult.json();
         })
+
         .then (idresult => {
             console.log(idresult);
         
@@ -40,4 +42,4 @@ function searchUp(e) {
     });
 }
 
-fetchButton.addEventListener('click', searchUp);
+fetchButton.addEventListener("submit", searchUp);
