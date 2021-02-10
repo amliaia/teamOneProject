@@ -1,0 +1,28 @@
+1. Project Title - Job Availability App
+
+2. Application will collate available jobs/careers by sector, title, and location
+
+3. User story
+    Who - App is for job seekers
+    What - Filtered search results for jobs by location
+    Goal - find a job
+
+4. App wireframe
+-Nav Bar: Job Search by description 
+-Fill in search bar to filter results 
+-Top three search results
+## Screenshots
+![Example screenshot](./images/projectOneWireframe.jpg)
+
+5.  APIs to be used
+    Wikepedia 
+    Jooble
+    
+
+6. Tasks
+    Landing Page
+    Search Function
+    Fetch
+    Local Storage
+    Display Results
+
