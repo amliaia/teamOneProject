@@ -107,6 +107,7 @@
   input {
   text-align: center;
   width: 25%;
+  outline: none;
   display: inline-block;
   align-content: center;
   padding: 15px;
@@ -116,7 +117,7 @@
   border: none;
   border-radius: 25px;
   color: rgb(0, 0, 0);
-  font-size: 15px;
+  font-size: 20px;
   }
   
   img {
@@ -158,11 +159,12 @@
   border: none;
   background-color: rgb(236, 58, 4);
   border-radius: 25px;
+  outline: none;
   box-shadow: none;
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 20px;
-  line-height: 17px;
+  line-height: 20px;
   margin: 10px 10px 10px 15px;
   padding: 10px 25px;
   text-align: center;
