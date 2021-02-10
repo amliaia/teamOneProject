@@ -174,16 +174,33 @@
   #gifDisplay {
     width: 60%;
     float: right;
+    border-style: double;
   }
 
   #output {
     float: left;
     height: 200px;
     width: 35%;
-    border: 1px solid black;
-    
+    border-style: double;    
+  }
+
+  #wiki {
+    width: 35%;
+
+  }
+  #gif {
+    width: 60%;
+    display: inline-flex;
+    float: right;
   }
   
+  /* #history {
+    float: left;
+    border-style: double;
+    width: 35%;
+    height: auto
+  } */
+
   @media screen and (max-width: 100px) {
   .column {
   width: 50%;
