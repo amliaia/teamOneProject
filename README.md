@@ -50,7 +50,7 @@ Git branching workflow
 Agile software development
  
 ## Links
--Website
+Website:
 https://amliaia.github.io/teamOneProject/
--Repository
+Repository:
 https://github.com/amliaia/teamOneProject
