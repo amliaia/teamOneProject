@@ -48,11 +48,11 @@ Key Topics
 Server-side APIs
 Git branching workflow
 Agile software development
-
-#Website 
-Link
+ 
+#Link
+Website
 https://amliaia.github.io/teamOneProject/
 
-#Repository
-Link
+#Link
+Repository
 https://github.com/amliaia/teamOneProject
