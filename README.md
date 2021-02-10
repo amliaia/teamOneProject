@@ -14,11 +14,12 @@ This project is a application for a user to search for a topic of interest. The 
 
 ## Screenshots
 #
-![Alt Text!](https://user-images.githubusercontent.com/72354925/107296173-7fcf4380-6a36-11eb-8160-ac48fdda5415.png)
+![Alt Text!](https://user-images.githubusercontent.com/72354925/107575243-51c43d80-6bb5-11eb-8071-4ed06675416c.png)
+
 
 
 ## Features
-List of features ready and TODOs for future development
+List of features ready and TO DOs for future development
 
 Ready:
 
