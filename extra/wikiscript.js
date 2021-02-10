@@ -1,6 +1,5 @@
-
-var fetchButton = document.getElementById("");
-var termEl = document.getElementById("input");
+var fetchButton = document.getElementById('#button1');
+var termEl = document.getElementById("#input");
 
 
 function searchUp(e) {
@@ -40,4 +39,10 @@ function searchUp(e) {
     });
 }
 
-fetchButton.addEventListener('click', searchUp);
+var fetchButton = document.getElementById('SubmitButton');
+if(fetchButton){
+  fetchButton.addEventListener('click', searchUp);
+}
+
+
+
