@@ -13,6 +13,10 @@
 ## General info
 This project is a application for a user to search for a topic of interest. The user receives results that include a Wikipedia description and a collection of GIFs related to the search term. 
 
+1. The user begins by typing in a single term into the search bar
+2. Next the user presses search which brings them mulitiple lines of images/GIF's that best relate
+3. The user may now right-click to save image url/paste and sent to friends through email or text message to spice up the convo!
+
 ## Screenshots
 #
 ![Alt Text!](https://user-images.githubusercontent.com/72354925/107575243-51c43d80-6bb5-11eb-8071-4ed06675416c.png)
