@@ -20,6 +20,7 @@ This project is a application for a user to search for a topic of interest. The 
 ## Screenshots
 #
 ![Alt Text!](https://user-images.githubusercontent.com/72354925/107575243-51c43d80-6bb5-11eb-8071-4ed06675416c.png)
+![Alt Text!](https://user-images.githubusercontent.com/72354925/107584187-aec5f080-6bc1-11eb-8bbc-afba2abd2bc2.png)
 
 
 
