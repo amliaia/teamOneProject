@@ -7,7 +7,7 @@
 * [Screenshots](#screenshots)
 * [Features](#features)
 * [Status](#status)
-* [Contact](#contact)
+* [Contributers](#contributers)
 
 ## General info
 This project is a application for a user to search for a topic of interest. The user receives results that include a Wikipedia description and a collection of GIFs related to the search term. 
@@ -37,7 +37,7 @@ Release 1.0
 
 Project is: _unfinished_ Project was designed as a homework assignment for a coding class.  This is the submission for the assignment.
 
-## Contact
+## Contributers
 Created by [UTA-AUS-FSF-PT-12-2020 Project Group 1]
 
 
