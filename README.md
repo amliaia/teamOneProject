@@ -8,6 +8,7 @@
 * [Features](#features)
 * [Status](#status)
 * [Contributers](#contributers)
+* [Links](#Links)
 
 ## General info
 This project is a application for a user to search for a topic of interest. The user receives results that include a Wikipedia description and a collection of GIFs related to the search term. 
