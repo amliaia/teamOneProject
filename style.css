@@ -170,6 +170,19 @@
   text-align: center;
   cursor: pointer;
   }
+
+  #gifDisplay {
+    width: 60%;
+    float: right;
+  }
+
+  #output {
+    float: left;
+    height: 200px;
+    width: 35%;
+    border: 1px solid black;
+    
+  }
   
   @media screen and (max-width: 100px) {
   .column {
