@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Discovery</title>
-   
-    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
-    <link rel="stylesheet" href="style.css"> 
+    <title>Wiki GIF</title>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    
 </head>
-
-
 <body>
-      
+    
     <div id="h1">
         <div class="main">
             <p>
@@ -26,38 +25,21 @@
         <h1>Wiki GIF</h1>
          <p id="p1">
             Use this app to explore your interests! Retrive images or GIF's that relate by typing in a simple term below then tapping search.
-        </p>   
-    
-        
+        </p>           
     </div>
 
-    <div class="row">
-    <div id="h2">
-        <h2>Enter Term Here</h2>
-        <p>
-            <input type="text" placeholder="type here">
-          </div>
-          <div id="SubmitButton">
-            <button id="button1">search</button></p>
-            
-   
+    <form id="search-form">
+        <input type="text" class="search">
+        <input id="button1" type="submit" value="find">
+    </form>
 
-<!-- Scripts -->
-<src src="./assets/js/giphyscript.js"></src>
-<src src="./assets/js/wikiscript.js"></src>
+    <div class="results"></div>
+
+    <div id="output"></div>
+
+    
+
+<script src="main.js"></script>
+<script src="wiki.js"></script>
 </body>
-
-
 </html>
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
